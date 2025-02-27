@@ -1,0 +1,24 @@
+{
+  "$schema": "https://unpkg.com/knip@5/schema.json",
+  "entry": [
+    "eslint.config.ts",
+    "build.config.ts",
+    "build.publish.ts",
+    "addons/**/*.ts",
+    "src/main.ts",
+    "src/main.test.ts",
+    "src/main-integration.test.ts",
+    "src/main-edge-cases.test.ts",
+    "src/main-snapshot.test.ts"
+  ],
+  "project": [
+    "eslint.config.ts",
+    "build.config.ts",
+    "build.publish.ts",
+    "addons/**/*.ts",
+    "src/**/*.ts"
+  ],
+  "ignoreExportsUsedInFile": true,
+  "ignore": ["tests-runtime/", "dist-jsr/", "dist-npm/", "dist-libs/"],
+  "ignoreDependencies": ["mri", "@reliverse/config"]
+}

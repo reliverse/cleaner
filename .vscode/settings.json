@@ -1,0 +1,36 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.addMissingImports": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never",
+    "source.removeUnused": "never"
+  },
+  "eslint.ignoreUntitled": true,
+  "eslint.rules.customizations": [
+    {
+      "rule": "perfectionist/sort-imports",
+      "severity": "off"
+    }
+  ],
+  "markdownlint.config": {
+    "MD033": {
+      "allowed_elements": [
+        "Card",
+        "CardGrid",
+        "div",
+        "p",
+        "span",
+        "picture",
+        "a",
+        "img",
+        "source",
+        "details",
+        "summary"
+      ]
+    }
+  },
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib"
+}
