@@ -10,7 +10,7 @@ export default defineConfig({
   projectName: "@reliverse/cleaner",
   projectAuthor: "reliverse",
   projectDescription:
-    "This superapp CLI tool can help you easily create new web projects, manage existing projects, and automatically make advanced codebase modifications, with more features coming soon.",
+    "This CLI tool helps you easily clean up trash from your arrays.",
   version: "1.0.0",
   projectLicense: "MIT",
   projectState: "creating",

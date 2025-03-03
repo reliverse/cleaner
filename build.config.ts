@@ -96,7 +96,7 @@ const ROOT_DIR = dirname(fileURLToPath(import.meta.url));
  */
 export const pubConfig: BuildPublishConfig = {
   // Publish configuration
-  registry: "npm",
+  registry: "npm-jsr",
   pausePublish: false,
 
   // Bump configuration
